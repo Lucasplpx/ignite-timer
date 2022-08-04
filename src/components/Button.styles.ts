@@ -7,7 +7,8 @@ interface ButtonProps {
 }
 
 export const ButtonContainer = styled.button<ButtonProps>`
-  background: ${({ theme }) => theme.primary};
+  background: ${({ theme }) => theme['green-500']};
+  color: ${({ theme }) => theme.white};
 
   width: 100px;
   height: 40px;
