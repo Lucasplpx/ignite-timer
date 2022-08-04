@@ -1,7 +1,7 @@
 export const History = () => {
   return (
     <div>
-      <h1>History</h1>;
+      <h1>History</h1>
     </div>
   );
 };
